@@ -1,0 +1,27 @@
+/* Write your CSS code here */
+
+.BlogList-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  align-items: center;
+}
+
+@media screen and(min-width:768px) {
+  .BlogList-container {
+    align-items: center;
+    width: 80%;
+  }
+}
+
+.BlogList-unOrderList-container {
+  list-style: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .BlogList-unOrderList-container {
+    width: 80%;
+  }
+}
